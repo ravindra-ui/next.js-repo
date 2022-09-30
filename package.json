@@ -17,3 +17,8 @@
     "react-dom": "^15.6.1"
   }
 }
+
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}
