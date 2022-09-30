@@ -19,6 +19,11 @@ const index = ({ data: { allUsers } }) => (
   </div>
 );
 
+module.exports = {
+  target: 'serverless',
+  // Other options
+};
+
 const GraphqlIndex = graphql(query)(index);
 
 export default withData(GraphqlIndex);
