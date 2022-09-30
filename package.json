@@ -7,6 +7,12 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+    
+    
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+
+
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +24,3 @@
   }
 }
 
-{
-  "version": 2,
-  "builds": [{ "src": "package.json", "use": "@now/next" }]
-}
